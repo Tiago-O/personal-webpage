@@ -9,6 +9,9 @@
   padding: 1rem 1.5rem;
   background: #232323;
   height: 80px;
+
+  position: sticky;
+  top: 0;
 }
 
 .hamburger1 {
