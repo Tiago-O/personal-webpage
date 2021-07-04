@@ -10,6 +10,11 @@
   filter: invert(100%);
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  margin-top: 460px;
+}
+
 .btn-black {
   background-color: #232323;
   border: none;
@@ -43,10 +48,20 @@
   .img-carousel-card {
   height: 58vh;
   }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    margin-top: 100px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
   .img-carousel-card {
   height: 42vh;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    margin-top: -30px;
   }
 }
