@@ -15,9 +15,12 @@
 }
 
 html {
-  /*font-size: 62.5%;*/
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
+}
+
+p {
+  font-size: 1.2rem;
 }
 
 li {
