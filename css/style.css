@@ -2,6 +2,7 @@
 @import url("components/navbar.css");
 @import url("components/footer.css");
 @import url("components/carousel.css");
+@import url("components/about.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
@@ -12,11 +13,19 @@
   text-decoration: none;
 
   border: 0 !important;
+  /*background-color: #232323;*/
 }
 
 html {
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
+  /*padding-top: 8%;  so the navbar doesn't get affected */
+}
+
+#after-navbar {
+  height: 7vh;
+  width: 100%;
+  background-color: #232323;
 }
 
 p {
