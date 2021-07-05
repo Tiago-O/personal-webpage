@@ -10,8 +10,11 @@
   background: #232323;
   height: 80px;
 
-  position: sticky;
-  top: 0;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+
+  z-index: 999;
 }
 
 .hamburger1 {
@@ -58,7 +61,7 @@
   font-weight: 500;
   color: #f4f4f4;
   opacity: 0.8;
-  z-index: 21;
+  z-index: 99;
 }
 
 .nav1-logo:hover {
@@ -87,7 +90,7 @@
   .nav1-menu.active {
     top: 70px;
     right: 0;
-    z-index: 20;
+    z-index: 98;
   }
 
   .nav1-item {
@@ -97,7 +100,7 @@
   .hamburger1 {
     display: block;
     cursor: pointer;
-    z-index: 21;
+    z-index: 99;
   }
 
   .hamburger1.active .bar1:nth-child(2) {

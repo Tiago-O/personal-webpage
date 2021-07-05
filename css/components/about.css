@@ -1,0 +1,43 @@
+.height-100 {
+  height: 100%;
+}
+
+.card-me {
+  height: 400px;
+  background: #232323;
+  /*box-shadow: 0 0 15px rgba(0,0,0,0.2);*/
+  /*  display: flex;
+  align-items: center;*/
+}
+
+.card-me img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  /*object-fit: scale-down;*/
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.card-me p {
+  font-size: 1.2rem;
+  /*line-height: 1.4;*/
+  opacity: .7;
+  margin: 16px 0px;
+  color:white;
+}
+
+.card-me h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 16px 0px;
+  color:white;
+}
+
+.card-me h5 {
+  font-size: 2rem;
+  /*line-height: 1.4;*/
+  opacity: .9;
+  margin: 16px 0px;
+  color:white;
+}
