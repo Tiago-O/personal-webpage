@@ -1,3 +1,10 @@
+#title-portfolio {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: -2rem;
+  text-align: center;
+}
+
 
 .img-carousel-card {
   width: 100%;
@@ -11,10 +18,10 @@
   filter: invert(100%);
 }
 
-.carousel-control-prev,
+/*.carousel-control-prev,
 .carousel-control-next {
   margin-top: 460px;
-}
+}*/
 
 .btn-black {
   background-color: #232323;
@@ -30,6 +37,10 @@
 .btn-black:hover {
   text-decoration: none;
   opacity: 1;
+}
+
+.card-title {
+  font-weight: 900;
 }
 
 /*.center-auto {
@@ -50,10 +61,10 @@
   height: 58vh;
   }
 
-  .carousel-control-prev,
+  /*.carousel-control-prev,
   .carousel-control-next {
     margin-top: 100px;
-  }
+  }*/
 }
 
 @media only screen and (max-width: 576px) {
@@ -61,8 +72,8 @@
   height: 42vh;
   }
 
-  .carousel-control-prev,
+  /*.carousel-control-prev,
   .carousel-control-next {
     margin-top: -42px;
-  }
+  }*/
 }
