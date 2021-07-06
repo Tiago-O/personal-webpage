@@ -1,11 +1,10 @@
 .footer {
-  background: #232323 ;
+  background: #D65A31;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 80px;
   padding: 0px 50px;
-  /*color: rgba(0,0,0,0.3);*/
 }
 .footer-links {
   display: flex;
@@ -13,9 +12,9 @@
 }
 .footer-links a {
   color: white;
-  opacity: 0.7;
+  opacity: 0.8;
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 28px;
   padding: 0px 10px;
 }
 .footer-links a:hover {
@@ -30,7 +29,7 @@
 }
 
 .footer-copyright {
-  font-size: 1rem;
+  font-size: 16px;
   color: white;
   opacity: 0.8;
 }
@@ -39,10 +38,10 @@
   .footer {
     padding: 0px 8px;
   }
-  .footer-copyright {
-  font-size: 0.85rem;
-  }
   .footer-links a {
-    font-size: 1.2rem;
+    font-size: 22px;
+  }
+  .footer-copyright {
+    font-size: 12px;
   }
 }
