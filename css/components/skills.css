@@ -5,8 +5,13 @@
 .container-skills h2 {
   font-size: 2.4rem;
   font-weight: bold;
-  margin: 16px 0px;
   color:white;
   text-align: center;
 }
 
+.container-skills p {
+  font-size: 1.2rem;
+  opacity: .7;
+  margin: 16px 0px;
+  color:white;
+}
