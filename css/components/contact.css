@@ -35,4 +35,5 @@
 .btn-ghost:hover {
   /*text-decoration: none;*/
   opacity: 1 !important;
+  font-weight: bold;
 }

@@ -90,6 +90,8 @@ header ul {
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     padding-top: 1rem;
     padding-bottom: 3rem;
+
+    opacity: 0.9;
   }
 
   .nav1-menu.active {
