@@ -5,18 +5,29 @@
 @import url("components/home.css");
 @import url("components/skills.css");
 @import url("components/about.css");
+@import url("components/contact.css");
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+/*#after-navbar {
+  height: 7vh;
+  width: 100%;
+  background-color: #232323;
+}
+
+#before-footer {
+  height: 7vh;
+  width: 100%;
+  background-color: #232323;
+}*/
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-
   font-family: 'Lato', sans-serif;
-
   border: 0 !important;
   /*background-color: #232323;*/
 }
@@ -24,12 +35,6 @@
 html {
   scroll-behavior: smooth;
   /*padding-top: 8%;  so the navbar doesn't get affected */
-}
-
-#after-navbar {
-  height: 7vh;
-  width: 100%;
-  background-color: #232323;
 }
 
 p {
