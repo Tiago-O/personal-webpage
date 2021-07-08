@@ -1,9 +1,9 @@
-.height-100 {
+.card-me-text {
   height: 100%;
 }
 
 .card-me {
-  height: 400px;
+  /*height: 420px;*/
   background: #232323;
   /*box-shadow: 0 0 15px rgba(0,0,0,0.2);*/
   /*  display: flex;
@@ -11,7 +11,7 @@
 }
 
 .card-me img {
-  height: 400px;
+  height: 420px;
   width: 100%;
   object-fit: cover;
   /*object-fit: scale-down;*/
@@ -42,14 +42,11 @@
   color:white;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 841px) {
   .card-me h2 {
   font-size: 2rem;
   }
   .card-me h5 {
   font-size: 1.6rem;
-  }
-  .card-me p {
-  font-size: 1rem;
   }
 }
